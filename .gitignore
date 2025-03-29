@@ -1,0 +1,14 @@
+# Build folders
+bin/
+obj/
+
+# Frontend
+node_modules/
+dist/
+
+# Sensitive files
+*.db
+.env
+
+# User settings
+.vscode/
