@@ -1,0 +1,23 @@
+.job-detail-card {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-detail-card h2 {
+  margin-bottom: 16px;
+}
+
+.job-detail-card p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}

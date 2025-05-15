@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.angular\\cache",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\app",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\job-list",
+    "\\src\\app\\models",
+    "\\src\\app\\services"
+  ],
+  "SelectedNode": "\\src\\app\\app\\app.component.html",
+  "PreviewInSolutionExplorer": false
+}

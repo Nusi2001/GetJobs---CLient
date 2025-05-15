@@ -1,0 +1,12 @@
+<mat-card *ngIf="job" class="job-detail-card">
+  <h2>{{ job.title }}</h2>
+  <p><strong>Domain:</strong> {{ job.domain }}</p>
+  <p><strong>Description:</strong> {{ job.description }}</p>
+  <p><strong>Location:</strong> {{ job.location || 'Not specified' }}</p>
+  <p><strong>Salary:</strong> {{ job.salary ? ('$' + job.salary.toLocaleString()) : 'Not specified' }}</p>
+
+  <div class="action-buttons">
+    <button mat-raised-button color="primary" (click)="apply()">Apply</button>
+    <button mat-button (click)="goBack()">Back</button>
+  </div>
+</mat-card>

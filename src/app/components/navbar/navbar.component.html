@@ -1,0 +1,16 @@
+<nav class="navbar">
+  <div class="navbar-left">
+    <a routerLink="/home" class="navbar-title">
+      <span class="material-icons">home</span> Home
+    </a>
+    <a routerLink="/jobs">Jobs</a>
+  </div>
+
+  <div class="navbar-right">
+    <a routerLink="/profile" class="nav-link">
+      <span class="material-icons">account_circle</span>
+      Profile
+    </a>
+    <button mat-raised-button color="primary" (click)="logout()">Logout</button>
+  </div>
+</nav>
