@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://getjobs-server1.onrender.com/api'
+  apiUrl: 'https://getjobs-client.netlify.app/'
 };
