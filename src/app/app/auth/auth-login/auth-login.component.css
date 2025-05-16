@@ -84,3 +84,14 @@ h2 {
 .login-footer a:hover {
   text-decoration: underline;
 }
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-header h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  color: #1e40af;
+  font-weight: bold;
+}
