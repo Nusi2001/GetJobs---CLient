@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { JwtHelperService } from '@auth0/angular-jwt';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -22,7 +23,7 @@ export class AuthService {
   constructor(private http: HttpClient) { }
 
   login(credentials: { email: string; password: string }): Observable<{ token: string }> {
-    return this.http.post<{ token: string }>('/api/auth/login', credentials);
+    return this.http.post<{ token: string }>(`${environment.apiUrl}/auth/login`, credentials);
   }
 
   setToken(token: string): void {
@@ -41,4 +42,5 @@ export class AuthService {
   logout(): void {
     localStorage.removeItem('jwtToken');
   }
+
 }

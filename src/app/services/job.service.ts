@@ -3,6 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Job } from '../models/job';
 import { environment } from '../../environments/environment';
+import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Injectable({
   providedIn: 'root'
